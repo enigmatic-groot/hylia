@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+$Blackhans: 'Black Han Sans', sans-serif;
 .site-head {
   &__site-name {
-    font-weight: 700;
+    font-family: $Blackhans;
+    font-weight: 900;
     text-decoration: none;
     color: var(--color-text);
+    color: #b6a571;
+      // border-bottom: 4px solid currentColor; /* Or whatever color you want */
+      text-decoration: none;
+      padding-bottom: 12px;
+      font-weight: 970;
+ background-image: linear-gradient(-45deg,transparent 48%,hsla(0,0%,100%,.8) 50%,transparent 52% 100%),linear-gradient(45deg,#b6a571,#cdb373,#e7da9a);
+ color: transparent;
+    background-clip: text;
+    background-size: 500% 500%,100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ArticleGambit_Gradient__3kPuE 3s ease infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: ArticleGambit_Gradient__3kPuE;
+    // font-family: Bluu Next,serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    // line-height: 1.1em;
+    // padding-right: 10px;
+    // margin-top: -13px;
+    // float: left;
+    color: #b6a571;
   }
 }

@@ -20,13 +20,21 @@
   &__item {
     padding: get-size(300) 0;
     flex-shrink: 0;
-
+    a:hover {
+      color: #b6a571;
+      border-bottom: 4px solid currentColor; /* Or whatever color you want */
+      text-decoration: none;
+      padding-bottom: 12px;
+      
+    }
     a {
       color: currentColor;
+      font-size: 1.2em;
 
       @include apply-utility('weight', 'mid');
 
       &:not(:hover) {
+        
         text-decoration: none;
       }
     }
